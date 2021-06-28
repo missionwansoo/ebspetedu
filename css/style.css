@@ -234,10 +234,10 @@ body{
 	margin:0 auto;
 	text-align:left;
 	position:relative;
-	left:-170px;
+	left:-80px;
 }
 #top_fixed .footer_box_img_bg{
-	width:45%;
+	width:50%;
 	min-width:450px;
 	height:120px;
 	background:linear-gradient(90deg,#1e3a6e 50%,#fff 50%);
@@ -249,7 +249,7 @@ body{
 
 #top_fixed .footer_box1{
 	float:left;
-	width:55%;
+	width:50%;
 	max-width:680px;
 }
 #top_fixed .footer_box1 .footer_input{
@@ -333,6 +333,22 @@ body{
 	0%{background-position:0 50%}
 	50%{background-position:100% 50%}
 	100%{background-position:0 50%}
+}
+#top_fixed .footer_box_img_bg_m{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 800px;
+	height: 120px;
+	background: #eee;
+	display: none;
+}
+#top_fixed .footer_box_img_bg_m img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
 }
 #top_fixed .action_btn{
 	color:#000;

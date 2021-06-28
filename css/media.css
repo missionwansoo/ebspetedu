@@ -42,13 +42,17 @@
 		display: block;
 	}
 	
+	#top_fixed .footer_box_img{
+		left: -170px;
+	}
 	#top_fixed .footer_box_img_bg{
 		min-width: 350px;
 	}
 	#top_fixed .action_btn{
 		position: absolute;
-		right: 10%;
-		top: 0;
+		left: 80%;
+		transform: translateX(-50%);
+		top: 5px;
 	}
 	#news_intro{
 		width: 100%;
@@ -173,6 +177,16 @@
     }
 	#mainVideo .mainVideo_text h3{
 		font-size: 3em;
+	}
+	#top_fixed .footer_box_img{
+		display: none;
+	}
+	#top_fixed .footer_box_img_bg_m{
+		display: block;
+	}
+	#top_fixed .action_btn{
+		left: 80%;
+		transform: translateX(-50%);
 	}
 }
 /***********(480)**********/
