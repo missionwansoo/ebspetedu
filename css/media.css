@@ -61,6 +61,7 @@
 	#news_intro ul.news_intro_img>li{
 		float: none;
 		width: 100%;
+		max-width: 100%;
 		margin-bottom: 20px;
 		display: block;
 	}
