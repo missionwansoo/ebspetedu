@@ -1,0 +1,321 @@
+#visual .visual_img{
+    text-indent: -9999px;
+    width: 100%;
+    height: 450px;
+    background-size:cover;
+    background-position: center;
+    margin: 0 auto;
+}
+#container{
+    position: relative;
+}
+#container .container1 .head_text_line1,
+#container .container1 .head_text_line2{
+    text-indent: -9999px;
+    background-color:#2a2a2a;
+    height: 4px;
+    position: absolute;
+}
+#container .container1 .head_text_line1{
+    width: 25%;
+    top:40px;
+    left: 0;
+    -moz-animation-name: left;
+    -webkit-animation-name: left;
+    animation-name: left;
+    -moz-animation-duration:2.8s;
+    -webkit-animation-duration:2.8s;
+    animation-duration:2.8s;
+}
+@-moz-keyframes left{
+    from{
+        width: 0;
+        opacity: 0.3;
+    }
+    to{
+        width: 25%;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes left{
+    from{
+        width: 0;
+        opacity: 0.3;
+    }
+    to{
+        width: 25%;
+        opacity: 1;
+    }
+}
+@keyframes left{
+    from{
+        width: 0;
+        opacity: 0.3;
+    }
+    to{
+        width: 25%;
+        opacity: 1;
+    }
+}
+#container .container1 .head_text_line2{
+    right: 0%;
+    width: 70%;
+    top:115px;
+    -moz-animation-name: right;
+    -webkit-animation-name: right;
+    animation-name: right;
+    -moz-animation-duration: 2.1s;
+    -webkit-animation-duration: 2.1s;
+    animation-duration: 2.1s;
+}
+@-moz-keyframes right{
+    from{
+        width:0%;
+        opacity: 0;
+    }
+    to{
+        width: 70%;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes right{
+    from{
+        width:0%;
+        opacity: 0;
+    }
+    to{
+        width: 70%;
+        opacity: 1;
+    }
+}
+@keyframes right{
+    from{
+        width:0%;
+        opacity: 0;
+    }
+    to{
+        width: 70%;
+        opacity: 1;
+    }
+}
+#container .container1 .head_text{
+    width: 83%;
+    max-width: 1245px;
+}
+#container .container1 .head_text .left{
+    float: left;
+}
+#container .container1 .head_text .left .tit{
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 1.3;
+    background-color: #fff;
+    padding: 0 40px
+}
+#container .container1 .head_text .right{
+    font-size: 1.6rem;
+    float: right;
+    margin-top: 192px;
+    padding-right: 40px
+}
+#container .container1 .head_text .right li{
+    margin-top: 8px;
+}
+#container .container1 .head_text .right li:first-child{
+    margin-top: 0;
+}
+#container .container1 .head_text .right li h4{
+    display: inline-block;
+    width: 85px;
+    font-weight: 700
+}
+#container .container1 .head_text .right li .desc{
+    display: inline-block;
+}
+#container .container2{
+    margin-top:100px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    width: 83%;
+    max-width: 1245px;
+}
+#container .container2 .sub_tit{
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-family: 'Nexa';
+    letter-spacing: -1px;
+}
+#container .container2 .desc,
+#container .container3 .desc{
+    line-height: 1.5;
+    font-size: 1.7rem
+}
+#container .container3 {
+    margin-top: 100px;
+}
+#container .container3  .poster,
+#container .container3  .main{
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+#container .container3  .poster img{
+    box-shadow: 2px 2px 17px 4px #d5d5d5;
+    width: 100%;
+}
+#container .container3  .main img{
+    box-shadow: 2px 2px 17px 4px #d5d5d5;
+    width: 100%;
+}
+#container .container3  .sub{
+    margin-top: 70px;
+    position: relative;
+    font-size: 0
+}
+#container .container3 .sub .bg{
+    text-indent: -9999px;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    z-index: -1
+}
+/**********(1200)***********/
+@media screen and (max-width: 1200px){
+    #visual .visual_img{
+        height: 300px;
+    }
+    #container .container1 .head_text{
+        width: 92%;
+    }
+    #container .container2{
+        width: 92%;
+    }
+}
+/*****(1024-780)*****/
+@media screen and (max-width: 1024px){
+    #container .container1 .head_text_line1{
+        display: none;
+    }
+    #container .container1 .head_text_line2{
+        top:84px;
+    }
+    #container .container1 .head_text .left .tit{
+        line-height: 1.2;
+        font-size: 4.6rem;
+        padding: 0 40px 0 0
+    }
+    #container .container1 .head_text .right{
+        margin-top: 138px;
+        padding: 0
+    }
+    #container .container2{
+        padding:0 ;
+    }
+    #container .container3  .poster img{
+        box-shadow: 2px 2px 7px 1px #d5d5d5;
+    }
+    #container .container3  .main img{
+        box-shadow: 2px 2px 7px 1px #d5d5d5;
+    }
+}
+/*****(780)*****/
+@media screen and (max-width: 780px){
+    #container .container1 .head_text_line2{
+        top:72px;
+    }
+    #container .container1 .head_text .left{
+        float: inherit;
+    }
+    #container .container1 .head_text .left .tit{
+        line-height: 1.2;
+        padding: 0;
+        font-size: 4rem  
+    }
+    #container .container1 .head_text .right{
+        margin-top: 50px;
+        float: inherit;
+    }
+    #container .container1 .head_text .right li h4{
+        width: 75px;
+    }
+    #container .container2{
+        margin-top: 50px;
+    }
+    #container .container2 .sub_tit{
+        margin-bottom: 6px;
+        font-size: 2.2rem
+    }
+    #container .container3{
+        margin-top: 70px
+    }
+    #container .container3 .sub{
+        margin-top: 50px
+    }
+}
+/***********(480)**********/
+@media screen and (max-width: 480px){
+    #visual .visual_img{
+        height: 300px;
+    }
+    #container .container1 .head_text_line2{
+        top:64px;
+        height: 3px;
+    }
+    #container .container1 .head_text .left .tit{
+        font-size: 3.5rem 
+    }
+    #container .container1 .head_text .right{
+        margin-top: 40px;
+        float: inherit;
+        font-size: 1.5rem
+    }
+    #container .container1 .head_text .right li h4{
+        width: 70px;
+    }
+    #container .container2{
+        margin-top: 40px;
+    }
+    #container .container2 .sub_tit{
+        margin-bottom: 6px;
+        font-size: 2rem
+    }
+    #container .container2 .desc,
+    #container .container3 .desc{
+        font-size: 1.6rem;
+        line-height: 1.6
+    } 
+    #container .container3  .main img{
+        box-shadow: 1px 1px 7px 1px #d5d5d5;
+    }
+    #container .container3 .sub .bg{
+        height: 200px;
+    }
+}
+/*****(375)*****/
+@media screen and (max-width: 375px){  
+}
+/*****(360)*****/
+@media screen and (max-width: 360px){ 
+    #container .container1 .head_text .right{
+        font-size: 1.4rem
+    }
+    #container .container1 .head_text .right li h4{
+        width: 65px;
+    }
+    #container .container2 .desc,
+    #container .container3 .desc{
+        font-size: 1.5rem
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

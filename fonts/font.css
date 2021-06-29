@@ -1,0 +1,42 @@
+@font-face{
+    font-family:'SpoqaHanSans';
+    src:url('SpoqaHanSansNeo-Regular.eot');
+    src:url('SpoqaHanSansNeo-Regular.woff2') format('woff2'),
+        url('SpoqaHanSansNeo-Regular.woff') format('woff'),
+        url('SpoqaHanSansNeo-Regular.ttf') format('truetype');
+    font-weight:400;
+}
+@font-face{
+    font-family:'SpoqaHanSans';
+    src:url('SpoqaHanSansNeo-Light.eot');
+    src:url('SpoqaHanSansNeo-Light.woff2') format('woff2'),
+        url('SpoqaHanSansNeo-Light.woff') format('woff'),
+        url('SpoqaHanSansNeo-Light.ttf') format('truetype');
+    font-weight:300;
+}
+@font-face{
+    font-family:'SpoqaHanSans';
+    src:url('SpoqaHanSansNeo-Bold.eot');
+    src:url('SpoqaHanSansNeo-Bold.woff2') format('woff2'),
+        url('SpoqaHanSansNeo-Bold.woff') format('woff'),
+        url('SpoqaHanSansNeo-Bold.ttf') format('truetype');
+    font-weight:700;
+}
+@font-face{
+    font-family:'Nexa';
+    src:url('Nexa-Light.eot');
+    src:url('Nexa-Light.woff2') format('woff2'),
+        url('Nexa-Light.woff') format('woff'),
+        url('Nexa-Light.ttf') format('truetype');
+    font-weight:400;
+}
+@font-face{
+    font-family:'Nexa';
+    src:url('Nexa-Bold.eot');
+    src:url('Nexa-Bold.woff2') format('woff2'),
+        url('Nexa-Bold.woff') format('woff'),
+        url('Nexa-Bold.ttf') format('truetype');
+    font-weight:700;
+}
+
+

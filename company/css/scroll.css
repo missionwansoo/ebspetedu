@@ -1,0 +1,70 @@
+/*********************scroll******************************/
+#visual .wrapper .scroll_down{
+    font-size: 1.5rem;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    z-index: 14;
+    font-weight: 700;
+    font-family: 'Nexa';
+    -moz-animation-duration: 1.6s;
+    -webkit-animation-duration: 1.6s;
+    -ms-animation-duration: 1.6s;
+    -o-animation-duration: 1.6s;
+    animation-duration: 1.6s;
+    -moz-animation-name: slide;
+    -webkit-animation-name: slide;
+    -ms-animation-name: slide;
+    -o-animation-name: slide;
+    animation-name: slide;
+   -moz- animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    -ms-animation-direction: alternate;
+    -o-animation-direction: alternate;
+    animation-direction: alternate;
+}
+@-moz-keyframes slide{
+    from{
+        bottom: 25%;
+    }
+    to{
+        bottom:0%;
+    }
+}
+@-webkit-keyframes slide{
+    from{
+        bottom: 25%;
+    }
+    to{
+        bottom:0%;
+    }
+}
+@-ms-keyframes slide{
+    from{
+        bottom: 25%;
+    }
+    to{
+        bottom:0%;
+    }
+}
+@-o-keyframes slide{
+    from{
+        bottom: 25%;
+    }
+    to{
+        bottom:0%;
+    }
+}
+@keyframes slide{
+    from{
+        bottom: 25%;
+    }
+    to{
+        bottom:0%;
+    }
+}
